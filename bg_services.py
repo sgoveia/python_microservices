@@ -103,7 +103,8 @@ class BackgroundServices(object):
                             'iso-8859-1')(source))
                         for line in reader:
                             data = json.loads(json.dumps(line))
-                            url = data['com']
+                            # logger.info("{0}".format(data))
+                            url = data['google.com']
                             rank = data['1']
                             self.ciscoDB[url] = rank
         except:

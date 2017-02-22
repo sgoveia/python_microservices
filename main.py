@@ -1,5 +1,3 @@
-
-
 # -*- coding: utf-8 -*-
 # The MIT License (MIT)
 # Author - Stephen Goveia 2017
